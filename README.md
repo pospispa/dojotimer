@@ -1,4 +1,4 @@
-#DojoTimer 
+#DojoTimer
 
 Download latest version at:
 
@@ -6,8 +6,8 @@ Download latest version at:
 
 This DojoTimer is as simple as it gets. It becomes red when tests aren't passing.
 
-![Green DojoTimer](https://github.com/juanplopes/dojotimer/raw/master/doc/green.png) 
-![Red DojoTimer](https://github.com/juanplopes/dojotimer/raw/master/doc/red.png) 
+![Green DojoTimer](https://github.com/juanplopes/dojotimer/raw/master/doc/green.png)
+![Red DojoTimer](https://github.com/juanplopes/dojotimer/raw/master/doc/red.png)
 ![Red DojoTimer Small](https://github.com/juanplopes/dojotimer/raw/master/doc/redsmall.png)
 
 ##Developing
@@ -22,5 +22,11 @@ Run ```build.cmd```
 
 Run ```xbuild build.xml```
 
-You probably will have to install the most complete Mono version to do that. 
+or a workaround:
+```
+xbuild /p:TargetFrameworkVersion="v4.5" build.xml
+```
+for errors like: `CSC: error CS0518:`
+
+You probably will have to install the most complete Mono version to do that.
 Or at least the development packages and gdksharp-2.0.
